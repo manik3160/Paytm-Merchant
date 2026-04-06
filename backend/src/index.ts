@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { userRouter } from './router/user_v2_broken.js';
+import { userRouter } from './router/user.ts';
 
 const app = express();
 
